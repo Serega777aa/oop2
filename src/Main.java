@@ -17,5 +17,10 @@ public class Main {
         view.bookView(son);
         papa.Voice();
 
+        Dog dog = new Dog("мальчик", "Мухтар", 2, son);
+        System.out.print(dog.getName() + ": ");
+        dog.voice();
+
+
     }
 }
